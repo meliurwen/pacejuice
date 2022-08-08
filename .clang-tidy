@@ -1,0 +1,21 @@
+---
+Checks: '
+bugprone-*,
+-bugprone-signal-handler,
+-bugprone-easily-swappable-parameters,
+clang-analyzer-*,
+-clang-analyzer-cplusplus*,
+performance-*,
+portability-*,
+readability-*,
+-readability-identifier-length,
+-readability-function-cognitive-complexity,
+llvm-*,
+misc-*
+'
+
+WarningsAsErrors: ''
+HeaderFilterRegex: '.*'
+AnalyzeTemporaryDtors: false
+FormatStyle: llvm
+...
